@@ -1,0 +1,22 @@
+.profile{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	border: solid;
+	align-items: center;
+	height: 500px;
+	width: 100%;
+
+}
+.trick-btn,.trick-btn2{
+	border: solid;
+	border-radius: 25%;
+	padding: 10px;
+	height: 20px;
+	
+	
+}
+h2{
+	
+
+}
