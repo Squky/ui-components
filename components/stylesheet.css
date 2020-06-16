@@ -6,17 +6,36 @@
 	align-items: center;
 	height: 500px;
 	width: 100%;
+	background-image:url("https://source.unsplash.com/random/");
 
 }
-.trick-btn,.trick-btn2{
-	border: solid;
-	border-radius: 25%;
+h1,h2{
+	color: white;
+	font
+}
+
+.trick-btn,.trick-btn2,.trick-btn3{
+	
+	border-radius: 5%;
 	padding: 10px;
 	height: 20px;
-	
-	
+	background-color: rgba(300,300,300,0.9);
+	color:black;
+	text-decoration: none;
 }
-h2{
-	
+.trick-btn:hover,.trick-btn2:hover,.trick-btn3:hover{
+	transition: 0.7s;
+	background-color: green;
+	color:white;
 
+
+
+}
+.trick-btn2{
+	
+	color: rgb(0,0,0);
+	background-color: rgb(200,0,0);
+}
+.trick-btn2:focus{
+	background-color: rgb(200,200,0)
 }
