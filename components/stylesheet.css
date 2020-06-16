@@ -1,17 +1,49 @@
+
+body{
+	background-color:#e8998d;
+}
 .profile{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
-	border: solid;
 	align-items: center;
 	height: 500px;
 	width: 100%;
-	background-image:url("https://source.unsplash.com/random/");
+	background-image:url("https://source.unsplash.com/random/1900x500");
 
 }
+.avatar{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	width: 100%;
+	background-image:url("avatar-splash.jpg");
+}
+
+.banner{
+	border:solid;
+	background-color: #adcad6;
+	width: 300px;
+	position: relative;
+	top: 20px;
+	height: 400px;
+	left: 42%;
+	
+	align-items: center;
+}
+
+.avatar-pic{
+
+	border-radius: 50%;
+}
+.card_pic{
+	
+}
 h1,h2{
-	color: white;
-	font
+	color: rgb(247, 142, 105);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .trick-btn,.trick-btn2,.trick-btn3{
